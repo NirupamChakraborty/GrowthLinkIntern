@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-950 text-white transition duration-300">
+    
+    <!-- Navbar -->
+    <nav class="bg-gray-900 p-4 fixed w-full z-10 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-400">Portfolio</h1>
+            <ul class="hidden md:flex space-x-6 text-gray-300">
+                <li><a href="#about" class="hover:text-blue-400">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col justify-center items-center text-center px-6" id="hero">
+        <img src="portsss.jpg" alt="Profile Picture" class="w-40 h-40 rounded-full border-4 border-gray-700 shadow-lg hover:shadow-2xl transition duration-300 mb-6">
+        <h1 class="text-5xl font-extrabold">Hello, I'm <span class="text-blue-400">Nirupam Chakraborty</span></h1>
+        <p class="mt-4 text-lg text-gray-400 max-w-2xl">
+            A passionate Web Developer from <b>India</b>, specializing in crafting modern, responsive, and user-friendly websites.
+        </p>
+
+        <!-- Social & Contact Links -->
+        <div class="mt-6 flex flex-col items-center space-y-2">
+            <p class="text-lg text-gray-400">📞 Contact: <span class="text-white font-semibold">+91 XXXXXXXXXX</span></p>
+            <div class="flex space-x-4 mt-2">
+                <a href="mailto:your.email@example.com" class="bg-gray-700 p-3 rounded-full hover:bg-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <img src="https://img.icons8.com/ios-filled/30/ffffff/email.png" alt="Email">
+                </a>
+                <a href="https://github.com/yourgithub" target="_blank" class="bg-gray-700 p-3 rounded-full hover:bg-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <img src="https://img.icons8.com/ios-filled/30/ffffff/github.png" alt="GitHub">
+                </a>
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank" class="bg-gray-700 p-3 rounded-full hover:bg-blue-500 transition-all duration-300 transform hover:-translate-y-2">
+                    <img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-16 text-center bg-gray-900">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-gray-300 text-lg">
+                I am a <b>Web Developer</b> with expertise in <b>HTML, CSS, JavaScript, Tailwind CSS, React.js, Express.js, Bootstrap, MySQL, MongoDB and Java</b>.  
+                I love building interactive and visually appealing websites that provide great user experiences.<br>
+                <b><em>This is a demo portfolio website that I have built for GrowthLink.</em></b>
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 text-center">
+        <h2 class="text-3xl font-bold mb-6">My Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 px-6">
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">HTML</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">CSS</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">JavaScript</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Tailwind CSS</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">React.js</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Node.js</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Express.js</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">MongoDB.js</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Bootstrap</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">MySQL</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Sass</div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-lg hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">Java</div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 text-center bg-gray-900">
+        <h2 class="text-3xl font-bold mb-6">Projects</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2 ">
+                <h3 class="text-xl font-bold">Project 1 <a href="" class="underline">(Web Notes App)</a></h3>
+                <p class="text-gray-400">Web Notes App is a modern, feature-rich note-taking application designed to keep your ideas, tasks, and important information organized in one place. Whether you're brainstorming, making checklists, or saving study notes, this app provides a seamless and efficient way to manage all your notes online.</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold">Project 2 <a href=""class="underline" >(Task Manager App)</a></h3>
+                <p class="text-gray-400">A powerful and intuitive task management application designed to boost productivity. Organize your tasks with priority levels, set due dates, and track progress with an interactive dashboard. Features include real-time sync, reminders, and collaboration tools for team projects.</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold">Project 3 <a href="" class="underline">(AI-Powered Chatbot)</a></h3>
+                <p class="text-gray-400">An advanced chatbot powered by machine learning and natural language processing (NLP). It can assist users with FAQs, automate customer support, and learn from interactions to improve responses over time. Ideal for businesses looking to enhance customer engagement.
+
+                </p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold">Project 4 <a href="" class="underline">(Expense Tracker)</a></h3>
+                <p class="text-gray-400">A smart financial tracking app that helps users manage their expenses and budget effectively. With real-time analytics, category-wise breakdowns, and goal setting, it provides insights into spending habits and helps users save money efficiently.</p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold">Project 5 <a href="" class="underline">(Image Recognition System)</a></h3>
+                <p class="text-gray-400">A deep learning-based image recognition tool that can classify objects, detect faces, and extract text from images. Ideal for security applications, automated data entry, and AI-powered search systems. Features include real-time processing and high accuracy.
+
+                </p>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-md shadow-md hover:shadow-xl hover:shadow-white transition-all duration-300 p-6 rounded-xl transform hover:-translate-y-2">
+                <h3 class="text-xl font-bold">Project 6 <a href="" class="underline">(Personal Portfolio Website)</a></h3>
+                <p class="text-gray-400">A beautifully designed portfolio website to showcase skills, projects, and achievements. Fully responsive and built with modern web technologies like React and Tailwind CSS, it features an interactive UI, smooth animations, and an integrated contact form.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 text-center">
+        <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+        <form class="max-w-lg mx-auto bg-gray-800 p-6 rounded-md shadow-md">
+            <input type="text" placeholder="Your Name" class="w-full mb-4 p-2 bg-gray-700 text-white rounded-md">
+            <input type="email" placeholder="Your Email" class="w-full mb-4 p-2 bg-gray-700 text-white rounded-md">
+            <textarea placeholder="Your Message" class="w-full mb-4 p-2 bg-gray-700 text-white rounded-md"></textarea>
+            <button type="submit" class="bg-yellow-400 text-gray-900 px-6 py-2 rounded-md font-bold hover:shadow-lg">Send Message</button>
+        </form>
+    </section>
+
+    <script>
+        // GSAP Animation
+        gsap.registerPlugin(ScrollTrigger);
+
+        const sections = document.querySelectorAll("section");
+        sections.forEach(section => {
+            gsap.from(section, {
+                y: 50,
+                opacity: 0,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                    toggleActions: "play none none reverse"
+                }
+            });
+        });
+    </script>
+   
+</body>
+</html>
