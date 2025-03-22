@@ -1,4 +1,4 @@
-# My Portfolio Project (Task 1) Growthlink internship - Nirupam Chakraborty
+# My Portfolio Website (Task 1) Growthlink internship - Nirupam Chakraborty
 
 This repository contains the source code for my portfolio website as Task1 for internship ar Growthlink. It showcases my skills, projects, and provides a way for people to contact me.
 
