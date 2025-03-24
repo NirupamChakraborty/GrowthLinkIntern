@@ -32,3 +32,6 @@ This portfolio project excels in several key areas, demonstrating a strong under
 * **User Friendly:** The design is simple, and the site is easy to navigate.
 
 This portfolio's design reflects a commitment to modern web development principles, featuring a sophisticated dark interface that prioritizes user experience. Strategic color accents and high-contrast typography establish a clear visual hierarchy, ensuring optimal readability. The implementation of Tailwind CSS facilitates a fully responsive layout, guaranteeing consistent performance across devices. Subtle GSAP animations enhance engagement without detracting from the professional aesthetic. The overall design achieves a refined balance between visual appeal and functional clarity.    
+
+
+
